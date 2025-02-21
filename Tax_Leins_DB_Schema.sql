@@ -24,3 +24,6 @@ primary key (_id)
 
 select * from Leins;
 select * from Satisfied_Leins;
+/* this is my comment
+on multiple lines */
+
