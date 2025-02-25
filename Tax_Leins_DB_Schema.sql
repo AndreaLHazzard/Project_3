@@ -22,8 +22,24 @@ assignee varchar,
 primary key (_id)
 );
 
+create table Property_Assessments_Parcel_Data (
+_id int not null,
+parid varchar not null,
+propertyhousenum int,
+propertyfraction int,
+propertyaddress varchar,
+propertycity varchar,
+propertystate varchar,
+propertyunit varchar,
+propertyzip int,
+munidesc varchar,
+ownerdesc varchar,
+class varchar,
+classdesc varchar,
+usedesc varchar,
+primary key (parid)
+);
+
 select * from Leins;
 select * from Satisfied_Leins;
-/* this is my comment
-on multiple lines */
-
+select * from Property_Assessments_Parcel_Data;
